@@ -1,0 +1,38 @@
+.wrapper{
+    transition: all .3s ease;
+    padding: 1.25rem 1rem;
+    max-width: 100%;
+    border-bottom: 1px solid rgb( 0 0 0 / 0.05);
+    background-color: transparent;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.nav-list{
+    gap: 2rem;
+}
+.nav-item{
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.justify-bettween{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.group-btn{
+    gap: 2rem;
+}
+.srolled{
+    background-color: var(--white);
+    position: fixed;
+}

@@ -1,0 +1,20 @@
+.info{
+    height: 9.5rem;
+    
+    h1{
+        font-size: 6rem;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+.border-black{
+    position: absolute;
+    top:50%;
+    right: -1rem;
+    width: 0.4rem;
+    height:80%;
+    display: inline-block;
+    background-color: var(--text-color);
+    transform: translateY(-50%);
+}
